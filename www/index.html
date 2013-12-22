@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Onigiri</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script language="javascript" src="public/js/libs/jquery-2.0.3.min.js"></script>
+		<script language="javascript" src="public/js/libs/createjs-2013.09.25.min.js"></script>
+		<script language="javascript" src="http://debian-dev:8080/socket.io/socket.io.js"></script>
+		<script language="javascript" src="public/js/entities.js"></script>
+		<script language="javascript" src="public/js/onigiri.js"></script>
+		<script language="javascript" src="public/js/board.js"></script>
+		<script language="javascript" src="public/js/tatami.js"></script>
+		<script language="javascript" src="public/js/game.js"></script>
+		<link rel="stylesheet" type="text/css" href="public/css/style.css" />
+</head>
+<body onload="init()">
+	<div id="content">
+		<canvas id="onigiriBoard"  width="1190" height="800">Your browser doesn't support HTML 5 Canvas</canvas>
+	</div>
+	
+	<script>
+	function init(){
+		init_onigiri();
+	}
+	</script>
+</body>
+</html>

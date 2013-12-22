@@ -1,0 +1,12 @@
+[
+	{"id":"board",
+	 "src":"public/ressources/images/board.png"},
+ 	{"id":"tatami",
+	 "src":"public/ressources/images/tatami.png"},
+	{"id": "onigiri",
+	 "src": "public/ressources/images/onigiri.png"},
+ 	{"id": "arrows",
+	 "src": "public/ressources/images/arrows.png"},
+	{"id": "dice",
+	 "src": "public/ressources/images/dice.png"}
+]
